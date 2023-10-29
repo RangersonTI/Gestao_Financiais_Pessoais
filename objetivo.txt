@@ -1,0 +1,27 @@
+Interface de Sistema Financeiro
+
+Equipe: Rangerson Clemente, Samuel Teixeira e Luis Felipe Cardoso
+
+Objetivos
+
+    A Interface de Sistema Financeiro Pessoal, propõe ajudar o usuário a administrar sua renda e
+    medir de forma aproximada rendimentos de investimentos de renda fixa.
+
+    Objetivo 1: Facilitar o Acompanhamento e Análise de Despesas
+
+        Uma interface que auxilia as pessoas a cuidar de suas finanças pessoais deve ser projetada
+        para alcançar o objetivo de facilitar o acompanhamento e a análise de despesas de forma
+        detalhada. Isso pode ser realizado de várias maneiras, incluindo:
+        - Registro de Gastos Simplificado: Desenvolver um sistema de registro de gastos intuitivo e
+        de fácil uso.
+        - Visualização de Dados: Apresentar informações financeiras de forma clara e detalhada,
+        por meio de gráficos, mostrando ao usuário os gastos por diferentes áreas, para assim o
+        usuário entender o padrão de gastos ao longo do período.
+
+    Objetivo 2: Fornecer Recomendações e Metas Financeiras Personalizadas
+    
+        Outro objetivo fundamental de uma interface de finanças pessoais é ajudar o usuário a
+        estabelecer metas financeiras realistas e fornecer recomendações personalizadas para
+        alcançá-las. Isso podeŕa ser alcançado da seguinte forma:
+        - Análise de Despesas: Com base nas informações fornecidas e nos dados de despesas
+        registrados, a interface deve ser capaz de analisar o orçamento atual do usuário.
