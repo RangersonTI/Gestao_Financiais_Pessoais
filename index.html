@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finances</title>
     <link rel="stylesheet" href="style.css">
+    <title>Financias Pessoais</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <div><br><br><br><br><br><br><br><br></div>
+    <div id="dados_financeiros">
+        <div>
+            <label for="salario_pessoal">Salário: </label>
+            <input type="text" id="salario_pessoal">
+        </div>
+    </div>
+    <br>
+    <div id="conta_a_pagar">
+        <div><label for="contas">Contas</label><br><br>
+            <label for="agua">Água</label>
+            <input type="number" id="agua"><br>
+
+            <label for="luz">Luz</label>
+            <input type="text" id="luz"><br>
+
+            <label for="aluguel">Aluguel</label>
+            <input type="text" id="aluguel"><br>
+
+            <label for="internet">Internet</label>
+            <input type="text" id="internet"><br>
+
+            <label for="outros">Outras:</label>
+            <input type="number" id="outros">
+        </div>
+        <br>
+        <div>
+            <label for="matimentos">Mantimentos</label>
+            <input type="number" id="matimentos">
+        </div>
+        <br>
+        <div>
+            <label for="lazer">Lazer</label>
+            <input type="number" id="lazer">
+        </div>
+        <br>
+        <div>
+            <label for="saude">Saúde</label>
+            <input type="number" id="saude">
+        </div>
+        <br>
+        <div>
+            <label for="educacao">Educação</label>
+            <input type="number" id="educacao">
+        </div>
+        <br>
+        <div><input type="button" value="Enviar e Calcular" id="data_send"></div>
+    </div>
 </body>
 </html>
