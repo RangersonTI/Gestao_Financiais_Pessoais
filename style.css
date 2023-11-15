@@ -17,11 +17,19 @@ body{
     padding-left: 2%;
     font-size: 16px;
 }
-#conta_a_pagar div{
-    padding-left: 2%;
-    padding: 2px;
-    font-size: 16px;
-}
+    #conta_a_pagar div{
+        padding-left: 2%;
+        padding: 2px;
+        font-size: 16px;
+    }
 #data_send{
-    background-color: rgb(81, 182, 89);
+    background-color: rgb(47, 102, 52);
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+fieldset{
+    width: 30%;
+    
 }
