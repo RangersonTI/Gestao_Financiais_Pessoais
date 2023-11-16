@@ -8,6 +8,7 @@ body{
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0;
+    align-items: center;
 }
 #dados_financeiros div{
     justify-content: center;
@@ -21,6 +22,8 @@ body{
     background-color: rgb(170, 221, 255);
     padding-left: 2%;
     font-size: 16px;
+    align-items: center;
+    justify-items: center;
 }
     #conta_a_pagar div{
         padding-left: 2%;
@@ -28,11 +31,17 @@ body{
         font-size: 16px;
     }
 #data_send{
-    background-color: rgb(47, 102, 52);
+    background-color: #6a994e;
     font-size: 14px;
     color: #fff;
     border-radius: 5px;
 }
+    #data_send:hover{
+        background-color: #386641;
+    }
+        #data_send:active{
+            background-color: #1f4226;
+        }
 
 fieldset{
     width: 30%;
