@@ -9,6 +9,8 @@ body{
     padding-top: 0;
     padding-bottom: 0;
     align-items: center;
+    min-width: 400px;
+    
 }
 
 #dados_financeiros{
@@ -20,7 +22,8 @@ input[type=number]::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
 input[type=number]{
-    border-radius: 2px;
+    border-radius: 1px;
+    padding-bottom: 2px;
 }
 
 #dados_financeiros div{
@@ -52,8 +55,11 @@ input[type=number]{
     }
 #data_send{
     background-color: #6a994e;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
+    width: 10%;
+    min-width: 170px;
+    padding-bottom: 2px; padding-top: 2px;
     border-radius: 5px;
 }
     #data_send:hover{
@@ -65,5 +71,10 @@ input[type=number]{
 
 fieldset{
     width: 30%;
-    
+    max-width: 200px;
+}
+
+label[for="contas"], label[for="mantimentos"], label[for="lazer"], label[for="saude"], label[for="educacao"]{
+    font-size: 18px;
+    font: bolder;
 }
